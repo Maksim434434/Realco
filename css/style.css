@@ -1,0 +1,70 @@
+@font-face {
+    font-family: RobotoB;
+    src: url(..//fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: RobotoM;
+    src: url(..//fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: RobtoR;
+    src: url(..//fonts/Roboto-Regular.ttf);
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    display: grid;
+}
+
+header section.get{ 
+    background: #939878;
+    width: 100%;
+    height: 40px;
+    gap: 0px;
+    opacity: 0px;
+    text-align: center;
+}
+
+section.get p{
+    color: white;
+    font-family: RobotoR;
+}
+
+section.menu div.logo ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+section.menu div.logo ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: RobotoR;
+    font-size: 16px;
+}
+
+section.menu div.cart button{
+    width: 100px;
+    height: 42px;
+    gap: 0px;
+    opacity: 0px;
+    border: none;
+    background: #E7E8E3;
+}
+
+section.menu div.cart img{
+    
+}
+
+section.menu div.find button{
+    width: 159px;
+    height: 42px;
+    left: 116px;
+    gap: 0px;
+    opacity: 0px;
+    background: #CF6F49;
+    border-radius: 6px;
+    border: none;
+}
